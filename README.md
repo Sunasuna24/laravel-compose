@@ -1,4 +1,4 @@
-# Laravelをインストールする法法
+# Laravelをインストールする方法
 
 ## githubからリポジトリをcloneする
 
