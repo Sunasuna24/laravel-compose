@@ -40,7 +40,7 @@ $ mv laravel-compose 変更したい名前
 ```
 docker-compose build
 docker-compose up -d
-docker-compose exex app bash
+docker-compose exec app bash
 composer create-project --prefer-dist laravel/laravel アプリ名 "バージョン数"
 cd アプリ名
 chmod 777 -R storage/
