@@ -2,7 +2,15 @@
 
 ## githubからリポジトリをcloneする
 
-```git clone https://github.com/Sunasuna24/laravel-compose.git```
+```
+git clone https://github.com/Sunasuna24/laravel-compose.git
+```
+
+## リポジトリ名を変更する
+
+```
+$ mv laravel-compose 変更したい名前
+```
 
 ## 必要に応じてDockerfileで使用するイメージを修正する
 
