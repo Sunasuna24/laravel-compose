@@ -1,10 +1,22 @@
 # Laravelをインストールする方法
 
+以下のLaravelアプリをコンテナから構築する方法を紹介します。
+
 ## githubからリポジトリをcloneする
 
 ```
 git clone https://github.com/Sunasuna24/laravel-compose.git (任意のリポジトリ名)
 ```
+
+## [WIP]M1チップに対応する
+
+docker-compose.ymlにM1チップに対応するための以下のコードを追記する。
+
+```
+platform: linux/amd64
+```
+
+これは[このissue](https://github.com/Sunasuna24/laravel-prepare/issues/1)で対応予定。
 
 ## 必要に応じてDockerfileで使用するイメージを修正する
 
