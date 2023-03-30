@@ -8,6 +8,14 @@
 git clone https://github.com/Sunasuna24/laravel-compose.git (任意のリポジトリ名)
 ```
 
+## git管理を辞める
+
+下記のコマンドを実行して、git管理を辞める。
+
+```
+rm -rf .git
+```
+
 ## [WIP]M1チップに対応する
 
 docker-compose.ymlにM1チップに対応するための以下のコードを追記する。
